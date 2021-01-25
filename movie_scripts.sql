@@ -1,0 +1,25 @@
+-- use movie_database;
+-- select mov_title,mov_year
+-- from movie
+-- select mov_year,mov_title
+-- from movie
+-- where mov_year = 1999;
+-- select mov_year,mov_title
+-- from movie
+-- where mov_year < 1998;
+-- select rev_name,mov_title
+-- from reviewer,movie
+-- select rev_name,rev_stars
+-- from reviewer,rating
+-- where rev_stars >= 7;
+-- select mov_title,rev_stars
+-- from rating,movie
+-- where rev_stars  = null;
+-- select rev_name,rev_stars
+-- from rating,reviewer
+-- where rev_stars  = null;
+-- select mov_title,dir_fname,dir_lname
+-- from movie,director
+-- where mov_title like 'eyes wide shut'
+-- SELECT rev_name,rev_stars FROM movie_database.`rating - rating`,reviewer
+-- where rev_stars is null;
