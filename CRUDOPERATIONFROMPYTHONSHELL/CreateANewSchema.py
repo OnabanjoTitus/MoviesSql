@@ -7,12 +7,12 @@ def create_dataBase():
     conn = None
 
     try:
-        conn = myDB = mysql.connector.connect(
+        conn = mysql.connector.connect(
             host="localhost",
             user="user1",
             password="Welcome@1")
         myCursor = conn.cursor()
-        myCursor.execute("CREATE DATABASE myDatabaseFromShell")
+        myCursor.execute("CREATE DATABASE BANKING_APPLICATION")
 
         if conn.is_connected():
             print("Database Is created")
@@ -30,3 +30,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
